@@ -69,25 +69,9 @@ export default function AppHero() {
     },
   };
 
-  // Floating animation for the cube
-  const floatingAnimation = {
-    y: [0, -10, 0],
-    transition: {
-      duration: 4,
-      repeat: Infinity,
-      ease: easeInOut,
-    },
-  };
+  
 
-  // Rotation animation for the orbital ring
-  const rotateAnimation = {
-    rotate: 360,
-    transition: {
-      duration: 20,
-      repeat: Infinity,
-      ease: 'linear',
-    },
-  };
+  
 
   // Glowing effect animation
   const glowAnimation = {
