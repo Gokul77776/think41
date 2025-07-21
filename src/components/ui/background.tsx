@@ -98,16 +98,7 @@ export default function AppHero() {
     },
   };
 
-  // Badge pulse animation
-  const badgePulse = {
-    scale: [1, 1.05, 1],
-    opacity: [0.9, 1, 0.9],
-    transition: {
-      duration: 2,
-      repeat: Infinity,
-      ease: 'easeInOut',
-    },
-  };
+   
 
   return (
     <section className="relative flex min-h-screen w-full flex-col items-center overflow-hidden bg-black py-16 text-white sm:px-6 lg:px-8 lg:py-2">
